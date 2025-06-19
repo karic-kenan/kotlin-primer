@@ -21,7 +21,17 @@ Variables have been fundamental since the early days of programming. Languages l
 
 In Kotlin, you declare a variable using `var` or `val`. `var` is for mutable variables (those that can be changed), and `val` is for immutable variables (those that cannot be changed once assigned).
 
-**Name**: A variable must have a name, which is used to refer to the stored value. Variable names should be descriptive and follow certain naming conventions (e.g., camelCase).
+```kotlin
+val variableName: Type = value
+var variableName: Type = value
+
+// Examples
+val name: String = "Kenan"
+var age: Int = 30
+val carBrand: String = "Maybach"
+```
+
+**Name**: A variable must have a name, which is used to refer to the stored value. Variable names should be descriptive and follow certain naming conventions (e.g., camelCase, where the first word starts with a lowercase letter, and each subsequent word starts with an uppercase letter.).
 
 **Type**: Kotlin is a statically-typed language, meaning each variable must be declared with a data type.
 - **Primitive Types:** Int, Double, Boolean, Char

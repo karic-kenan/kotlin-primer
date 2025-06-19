@@ -5,7 +5,7 @@
   * [Working with Kotlin REPL](working-with-repl.md)
 * **Kotlin Fundamentals**
   * [Variables, Types, and Operations](variables-types-operations.md)
-  * [Conditions](start.md)
+  * [Conditions](conditions.md)
   * [Loops and Ranges](start.md)
 * **Basic Functions and Control Flow**
   * [Functions (Introduction)](start.md)
