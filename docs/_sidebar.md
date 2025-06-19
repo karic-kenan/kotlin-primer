@@ -1,10 +1,8 @@
-* **Introduction**
-  * [Getting Started](start.md)
 * **Introduction and Setup**  
-  * [Introduction to Kotlin](contracts.md)
-  * [Setting up your development environment](available-services.md)
-  * [Writing your first Kotlin program](authorize.md)
-  * [Working with Kotlin REPL](onboard.md)
+  * [Introduction to Kotlin](introduction-to-kotlin.md)
+  * [Setting up your development environment](setting-up-your-ide.md)
+  * [Writing your first Kotlin program](writing-your-first-kotlin-program.md)
+  * [Working with Kotlin REPL](working-with-repl.md)
 * **Kotlin Fundamentals**
   * [Variables, Types, and Operations](start.md)
   * [Conditions](start.md)
