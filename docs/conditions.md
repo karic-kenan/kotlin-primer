@@ -11,10 +11,14 @@ By the end of this lecture, you will understand:
 - Practical examples of applying conditionals in real-world scenarios
 - Best practices for writing clear, maintainable conditional logic
 
+---
+
 ### What are Conditionals?
 Conditionals are programming constructs that allow your app to make decisions and execute specific code blocks based on whether certain conditions are met. These conditions are typically Boolean expressions that evaluate to either `true` or `false`. Depending on the outcome, your program can choose different paths of execution.
 
 This concept dates back to the earliest days of programming in the 1950s. While initial decision-making constructs were basic, modern languages like Kotlin offer sophisticated and flexible conditionals that help you write clean, readable code.
+
+---
 
 ### Conditions syntax
 Kotlin gives us two primary ways to handle conditions:
@@ -42,6 +46,8 @@ when (expression) {
 }
 ```
 
+---
+
 ### Why do we need conditions?
 Let's talk about why conditional statements are essential in programming:
 
@@ -57,6 +63,8 @@ Let's talk about why conditional statements are essential in programming:
     - The `when` statement is particularly useful for simplifying complex decision-making processes in a clean, readable format.
 - **Enhanced Readability and Maintenance**:
     - Well-structured conditionals clearly define decision points in your program, making your code easier to understand and maintain.
+
+---
 
 ### Practical examples
 Alright, now let’s dive into some real-world examples to understand how **`if`** and **`when`** statements work in Kotlin.
@@ -225,21 +233,25 @@ println(feedbackType)
 
 Here, we have a variable called `customerFeedback`, which could be any type. If it's an `Int`, we assume it's a rating (like 5 stars). If it's a `String`, we assume it's a comment (like 'Great service!'). Otherwise, it's an 'Unknown feedback type'. This is super useful when working with dynamic data where you might not always know the type in advance.
 
+---
+
 ### Best Practices and Pitfalls
 To write effective conditional code in Kotlin, keep these best practices in mind:
 
-1. **Keep conditions simple and readable**
+* **Keep conditions simple and readable**
    - Break complex conditions into smaller, named functions or variables to improve clarity.
-2. **Use `when` instead of multiple `if-else` chains**
-   - When you have several possible outcomes, use `when` instead of long chains of `if-else` statements.
-3. **Use `if` as an Expression for assignments**
-   - Take advantage of Kotlin's ability to use `if` for direct value assignments.
-4. **Avoid deeply nested conditions**
-   - Deep nesting makes code hard to follow. Consider using early returns or extracting functions instead.
-5. **Use `when` without an argument for complex logic**
-   - When dealing with multiple unrelated conditions, use a `when` statement without an argument.
-6. **Use constants or enums for clearer conditionals**
+* **Use `when` instead of multiple `if-else` chains**
+    - When you have several possible outcomes, use `when` instead of long chains of `if-else` statements.
+* **Use `if` as an Expression for assignments**
+    - Take advantage of Kotlin's ability to use `if` for direct value assignments.
+* **Avoid deeply nested conditions**
+    - Deep nesting makes code hard to follow. Consider using early returns or extracting functions instead.
+* **Use `when` without an argument for complex logic**
+    - When dealing with multiple unrelated conditions, use a `when` statement without an argument.
+* **Use constants or enums for clearer conditionals**
    - Instead of magic numbers or strings, use constants or Enums in your conditions to make the code more understandable and maintainable.
+
+---
 
 ### Conclusion
 Mastering conditionals in Kotlin is essential for controlling how your applications behave in different scenarios. With `if` statements for simple decisions and the versatile `when` statement for complex cases, you have powerful tools to handle various situations effectively.

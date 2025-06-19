@@ -11,6 +11,8 @@ By the end of this lecture, you will understand:
 - Practical applications through real-world examples
 - Writing clean, efficient loops while avoiding common mistakes
 
+---
+
 ### What are Loops and Ranges?
 
 **Loops** are programming constructs that repeatedly execute a block of code based on a condition. Instead of writing the same instructions multiple times, loops dynamically handle repetitive tasks. Kotlin provides three main types:
@@ -21,6 +23,8 @@ By the end of this lecture, you will understand:
 **Ranges** represent sequences of values (typically numbers or characters) defined by start and end points. They provide a concise way to specify boundaries when iterating through sequences. Kotlin supports inclusive, exclusive, and stepped ranges, making them powerful companions to loops.
 
 Historically, before loops existed, programmers had to duplicate code for repeated actions, leading to inefficiency and errors. The introduction of loops revolutionized programming by allowing dynamic execution based on conditions.
+
+---
 
 ### Loops syntax
 #### `for` Loop
@@ -70,6 +74,8 @@ do {
 } while (count <= 5)
 ```
 
+---
+
 ### Why do we need Loops and Ranges?
 Loops and ranges transform how we handle repetitive tasks in programming:
 - **Code Efficiency**  
@@ -80,6 +86,8 @@ Loops and ranges transform how we handle repetitive tasks in programming:
     - Loops dynamically respond to changing conditions, perfect for scenarios like user input validation, data searching, or processing until a specific state is reached.
 - **Maintainability**  
     - By condensing repetitive logic into structured patterns, your code becomes more readable and easier to update. When requirements change, you only need to modify one block instead of multiple duplicate sections.
+
+---
 
 ### Practical examples
 
@@ -485,6 +493,8 @@ println()
 
 This is useful for alphabetical processing, like working with grades or generating character sequences.
 
+---
+
 ### Best Practices and Pitfalls
 - **Use Ranges for clear iteration**
     - Ranges provide both efficiency and readability when working with sequences, especially when boundaries are known in advance.
@@ -500,6 +510,8 @@ This is useful for alphabetical processing, like working with grades or generati
     - Pay close attention when setting loop limits, especially with ranges and indices, to avoid off-by-one errors.
 - **Keep loop bodies focused**
     - Maintain simple, clear logic inside your loops. If a loop body grows complex, extract it into a separate function.
+
+---
 
 ### Conclusion
 Loops and ranges are fundamental tools in Kotlin that streamline repetitive tasks and collection processing. With inclusive/exclusive ranges, steps, and various loop types, you can write more elegant, maintainable code.

@@ -11,11 +11,15 @@ By the end of this lecture, you'll understand:
 - Practical examples of variables in arithmetic and bitwise operations
 - Best practices for managing data with variables
 
+---
+
 ### What are variables?
 
 A variable is essentially a symbolic name associated with a value stored in the computer's memory. It's like a labelled container that holds data which can be referenced and manipulated throughout your program.
 
 Variables have been fundamental since the early days of programming. Languages like Fortran in the 1950s introduced variables for numerical data, while COBOL expanded this to business data. Over decades, variables evolved to support increasingly complex data types, enhancing programming flexibility.
+
+---
 
 ### Variables syntax
 
@@ -40,6 +44,8 @@ val carBrand: String = "Maybach"
 
 **Value**: A variable stores a value that can be retrieved and modified (if it's mutable). The value must be compatible with the variable’s data type.
 
+---
+
 ### Why do we need variables?
 - **Data Storage**:
     - Variables are essential for storing data that a program can use later. They allow you to save information such as numbers, text, and other data types that your program can manipulate or reference as needed. Without variables, you'd have to re-enter data every time it's needed, making programs inefficient and cumbersome.
@@ -51,6 +57,8 @@ val carBrand: String = "Maybach"
     - Variables make your code more readable by providing meaningful names to data values. This helps others (and your future self) understand what the data represents and how it’s being used. Well-named variables can significantly enhance the clarity and maintainability of your code.
 - **Memory Management**:
     - Variables also play a crucial role in managing memory within your program. They allow your program to allocate space in memory for data that can be accessed and manipulated efficiently. Without variables, managing memory manually would be much more complex and error-prone.
+
+---
 
 ### Practical examples
 Let's open IntelliJ IDEA and get our hands dirty with actual code. I'll create a new package called `basics` and inside it, a new Kotlin file named `VariablesTypesOperations`.
@@ -642,6 +650,8 @@ println("Manufacturer: $MANUFACTURER")
 
 **Key Insight**: Use `const val` for values known at compile time that truly never change, like mathematical constants or API keys.
 
+---
+
 ### Best Practices and Pitfalls
 - **Use descriptive names:**
     - Always choose meaningful and descriptive names for your variables. This makes your code more readable and maintainable. For example, instead of naming a variable `x`, name it `carModel` or `totalProduction`.
@@ -659,6 +669,8 @@ println("Manufacturer: $MANUFACTURER")
 	- Be cautious of variable shadowing, where a variable declared in a smaller scope has the same name as one in a larger scope. This can lead to confusion and bugs, as it’s easy to mistakenly reference the wrong variable.
 - **Using magic numbers:**
 	- Avoid using unexplained numerical values directly in your code (e.g., `val discount = price * 0.15`). Instead, assign them to descriptive variables or constants (`val discountRate = 0.15`) to make your code more understandable.
+
+---
 
 ### Conclusion
 Variables are essential for managing data in your applications. Whether storing user inputs, tracking state, or performing calculations, variables let you work with data dynamically and efficiently.
