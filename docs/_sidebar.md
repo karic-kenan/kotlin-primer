@@ -6,7 +6,7 @@
 * **Kotlin Fundamentals**
   * [Variables, Types, and Operations](variables-types-operations.md)
   * [Conditions](conditions.md)
-  * [Loops and Ranges](start.md)
+  * [Loops and Ranges](loops-and-ranges.md)
 * **Basic Functions and Control Flow**
   * [Functions (Introduction)](start.md)
   * [Returns and Local Returns](start.md)
