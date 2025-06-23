@@ -8,7 +8,7 @@
   * [Conditions](conditions.md)
   * [Loops and Ranges](loops-and-ranges.md)
 * **Basic Functions and Control Flow**
-  * [Functions (Introduction)](start.md)
+  * [Functions (Introduction)](functions-introduction.md)
   * [Returns and Local Returns](start.md)
 * **Object-Oriented Programming**
   * [Classes (Introduction)](start.md)
