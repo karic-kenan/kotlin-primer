@@ -9,7 +9,7 @@
   * [Loops and Ranges](loops-and-ranges.md)
 * **Basic Functions and Control Flow**
   * [Functions (Introduction)](functions-introduction.md)
-  * [Returns and Local Returns](start.md)
+  * [Returns and Local Returns](returns-local-returns.md)
 * **Object-Oriented Programming**
   * [Classes (Introduction)](start.md)
   * [Inheritance](start.md)
