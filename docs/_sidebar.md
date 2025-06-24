@@ -12,7 +12,7 @@
   * [Returns and Local Returns](returns-local-returns.md)
 * **Object-Oriented Programming**
   * [Classes (Introduction)](classes-introduction.md)
-  * [Inheritance](start.md)
+  * [Inheritance](inheritance.md)
   * [Interfaces](start.md)
   * [Abstract Classes](start.md)
   * [Data Classes](start.md)
