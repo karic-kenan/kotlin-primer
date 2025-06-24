@@ -11,7 +11,7 @@
   * [Functions (Introduction)](functions-introduction.md)
   * [Returns and Local Returns](returns-local-returns.md)
 * **Object-Oriented Programming**
-  * [Classes (Introduction)](start.md)
+  * [Classes (Introduction)](classes-introduction.md)
   * [Inheritance](start.md)
   * [Interfaces](start.md)
   * [Abstract Classes](start.md)
