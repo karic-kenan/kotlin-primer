@@ -13,7 +13,7 @@
 * **Object-Oriented Programming**
   * [Classes (Introduction)](classes-introduction.md)
   * [Inheritance](inheritance.md)
-  * [Interfaces](start.md)
+  * [Interfaces](interfaces.md)
   * [Abstract Classes](start.md)
   * [Data Classes](start.md)
   * [Annotations](start.md)

@@ -63,7 +63,7 @@ class DerivedClass(property1: Type, property2: Type, val additionalProperty: Typ
 
 Inheritance solves several important problems in programming:
 
-- **Code Reusability:**
+- **Code reusability:**
     - Write once, use many times! Define common behaviors in your base class, and all derived classes get them automatically.
 - **Maintainability:**
     - Need to fix a bug in common functionality? Just update the base class, and all the derived classes benefit immediately.
@@ -71,14 +71,14 @@ Inheritance solves several important problems in programming:
     - You can easily add new types to your system. Want to add a new animal to our zoo? Just create a new class that inherits from `Animal`.
 - **Polymorphism:**
     - This is the superpower that lets you treat objects of different classes uniformly when they share a common base class. Your zookeeper can feed all animals without knowing exactly what type each animal is.
-- **Natural Hierarchies:**
+- **Natural hierarchies:**
     - Many real-world relationships naturally fit into hierarchies. Animals share common traits but have unique specializations - perfect for inheritance!
 
 ---
 
 ### Practical examples
 
-#### Step 1: Understanding the Base Class (`Animal`)
+#### 1: Understanding the Base Class (`Animal`)
 
 Let's start by creating our base class that will serve as the foundation for all animals in our zoo system.
 
@@ -149,7 +149,7 @@ Finally, let's add a method for making the animal sleep. This behavior is common
 }
 ```
 
-#### Step 2: Creating a Derived Class (`Lion`)
+#### 2: Creating a Derived Class (`Lion`)
 
 Now let's create our first derived class, Lion, which inherits from Animal.
 
@@ -204,7 +204,7 @@ Finally, I'll add a method that's specific to lions and not found in the Animal 
 }
 ```
 
-#### Step 3: Creating Another Derived Class (`Elephant`)
+#### 3: Creating Another Derived Class (`Elephant`)
 
 Let's create another derived class, Elephant, which also inherits from Animal.
 
@@ -259,7 +259,7 @@ And add an elephant-specific method that's not in the base class.
 }
 ```
 
-#### Step 4: Creating the Zookeeper Class (`Zookeeper`)
+#### 4: Creating the Zookeeper Class (`Zookeeper`)
 
 Now let's create a Zookeeper class that will manage our animals.
 
@@ -334,7 +334,7 @@ Then call each animal's describe method - again, polymorphism allows the right v
 }
 ```
 
-#### Step 5: Demonstrating Everything in the Main Function
+#### 5: Demonstrating Everything in the Main Function
 
 Let's put everything together in a main function to see how it works.
 
