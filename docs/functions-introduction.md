@@ -1,13 +1,13 @@
 ### Introduction
 
-Imagine building a restaurant management system where each function serves a specific purpose—welcoming customers, calculating bills, or handling orders. In Kotlin, some functions perform actions without returning values, while others process data and produce results. Today, we'll explore how Kotlin's function features make these tasks more efficient, creating applications that are both powerful and adaptable.
+Imagine building a restaurant management system where each function serves a specific purpose - welcoming customers, calculating bills, or handling orders. In Kotlin, some functions perform actions without returning values, while others process data and produce results. Today, we'll explore how Kotlin's function features make these tasks more efficient, creating applications that are both powerful and adaptable.
 
-Functions are fundamental building blocks in programming, allowing us to package logic into reusable, organized, and maintainable units of code. In our restaurant context, functions streamline everything from processing user input to calculating totals and applying discounts—all while minimizing redundancy. Mastering functions is essential for building scalable, efficient applications regardless of the project type.
+Functions are fundamental building blocks in programming, allowing us to package logic into reusable, organized, and maintainable units of code. In our restaurant context, functions streamline everything from processing user input to calculating totals and applying discounts - all while minimizing redundancy. Mastering functions is essential for building scalable, efficient applications regardless of the project type.
 
 By the end of this lecture, you will understand:
 
 - The role and purpose of functions in Kotlin
-- How to define and call functions—both those that return values and those that don't
+- How to define and call functions - both those that return values and those that don't
 - How function overloading enables more flexible code
 - How default arguments simplify function calls
 - When and how to use single-expression functions
@@ -16,11 +16,15 @@ By the end of this lecture, you will understand:
 - Best practices for writing clean, maintainable functions
 - Common pitfalls to avoid in function design
 
+---
+
 ### What are Functions?
 
 A function is essentially a reusable block of code that performs a specific task. In Kotlin, functions can accept inputs (parameters), perform operations, and return results. They help us break down complex problems into smaller, manageable pieces, promoting code reuse, organization, and clarity.
 
 The concept of functions has evolved significantly over time. Early computing systems used subroutines to enable code reuse and modularity. As high-level languages developed, functions became core features, dramatically improving code organization and readability. Today, they're essential components in modern programming, enabling efficient and maintainable software development.
+
+---
 
 ### Functions syntax
 In Kotlin, we define a function using the `fun` keyword, followed by the function name, parameters (if any), return type, and the code block that performs the function's task.
@@ -39,6 +43,8 @@ Where:
 - `ReturnType` specifies what kind of value the function returns (or `Unit` if it doesn't return anything)
 - The `return` statement provides the function's output value
 
+---
+
 ### Why do we need Functions?
 Functions are critical for several reasons:
 
@@ -56,6 +62,8 @@ Functions are critical for several reasons:
     - Functions enable modular testing, where you can verify each piece of your program works correctly in isolation.
 
 Let's explore these concepts through practical examples in our restaurant management context.
+
+---
 
 ### Practical examples
 
@@ -455,6 +463,8 @@ listSpecials("Lobster Bisque", "Steak Tartare", "Truffle Pasta")
 
 With the `vararg` modifier, our function becomes incredibly flexible. We can call it with any number of arguments: `listSpecials("Lobster Bisque")` for a single item, or `listSpecials("Lobster Bisque", "Steak Tartare", "Truffle Pasta")` for multiple items. Behind the scenes, Kotlin treats these arguments as an array, but the calling syntax is much cleaner than explicitly creating and passing an array.
 
+---
+
 ### Best Practices and Pitfalls
 Before we wrap up, let's talk about what makes a good function. These aren't just arbitrary rules - they're lessons learned from countless developers who've struggled with maintaining complex codebases.
 #### Best Practices
@@ -480,6 +490,8 @@ Before we wrap up, let's talk about what makes a good function. These aren't jus
     - Be cautious about functions that modify global state, as they can lead to unpredictable behavior.
 - **Excessive function length:**
     - If a function exceeds 20-30 lines, it might be trying to do too much and should be refactored.
+
+---
 
 ### Conclusion
 Functions are the essential building blocks of any Kotlin application. They enable us to write clean, modular, and maintainable code by encapsulating behavior, promoting reuse, and facilitating testing. As you develop your restaurant management system or any other application, thoughtful function design will make your code more robust, readable, and efficient.

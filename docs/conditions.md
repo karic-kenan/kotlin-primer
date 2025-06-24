@@ -95,7 +95,7 @@ In this example, we're checking if `itemStock` is greater than 0. If it is, we p
 
 #### 2. If as an Expression
 
-Now, here's something cool about Kotlin—`if` statements can be used as expressions, meaning they can return a value that we can assign to a variable.
+Now, here's something cool about Kotlin - `if` statements can be used as expressions, meaning they can return a value that we can assign to a variable.
 
 ```kotlin
 // Expression evaluated for different conditions
@@ -179,11 +179,11 @@ val orderStatus = when (orderQuantity) {
 println(orderStatus)
 ```
 
-Here, we're checking the size of an order. Based on the `orderQuantity`, we classify it as a 'Small order' if it's between 1-10 items, 'Medium order' if it's between 11-50 items, or 'Large order' if it's more than that. Since `when` returns a value, we can directly assign it to a variable—clean and efficient!
+Here, we're checking the size of an order. Based on the `orderQuantity`, we classify it as a 'Small order' if it's between 1-10 items, 'Medium order' if it's between 11-50 items, or 'Large order' if it's more than that. Since `when` returns a value, we can directly assign it to a variable - clean and efficient!
 
 #### 7. When Without an Argument
 
-Now, let's look at another way to use `when`—without an argument!
+Now, let's look at another way to use `when` - without an argument!
 
 ```kotlin
 // Using when without an argument
@@ -217,7 +217,7 @@ In this case, we check if the customer's age is 16 + 9 (which is 25). If it matc
 
 #### 9. Type Checking with When
 
-Now, let's talk about something really powerful—type checking using `when`.
+Now, let's talk about something really powerful - type checking using `when`.
 
 ```kotlin
 // Checking the type with when  

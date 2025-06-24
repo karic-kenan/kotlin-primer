@@ -12,12 +12,16 @@ By the end of this lecture, you will understand:
 - Practical applications through examples
 - Best practices and common pitfalls to avoid
 
+---
+
 ### What are Returns and Local Returns?
 In Kotlin, a `return` statement exits a function and optionally returns a value to the caller. It immediately stops execution and passes control back to where the function was called.
 
 Local returns are specific to lambdas and anonymous functions. They allow you to exit only the lambda or anonymous function without terminating the enclosing function, giving you finer control over execution flow within higher-order functions.
 
 While return statements have been fundamental in programming languages for decades, local returns are a more recent innovation that emerged with functional programming. As languages like Kotlin embraced functional concepts, developers needed more granular control within lambdas and anonymous functions - and local returns provide exactly that.
+
+---
 
 ### Returns syntax
 
@@ -54,6 +58,8 @@ someHigherOrderFunction {
 }
 ```
 
+---
+
 ### Why Do We Need Returns and Local returns?
 Returns and local returns serve several critical purposes in Kotlin:
 - **Result Delivery**:
@@ -68,6 +74,8 @@ Returns and local returns serve several critical purposes in Kotlin:
     - Local returns ensure that only the lambda or anonymous function is exited, not the entire enclosing function.
 
 Without local returns, using a regular `return` inside a lambda would exit the entire enclosing function - potentially disrupting your program's flow in unexpected ways.
+
+---
 
 ### Practical examples
 
@@ -236,6 +244,8 @@ val developersOnly = team.filter { it.role == "Developer" }
 
 Remember that the goal is to write clear, maintainable code. Choose the approach that makes your code most readable in each specific situation.
 
+---
+
 ### Best Practices and Pitfalls
 
 When working with returns and local returns in Kotlin, keep these best practices in mind:
@@ -252,6 +262,8 @@ When working with returns and local returns in Kotlin, keep these best practices
     - Too many local returns can make code harder to follow. Use them only when they add clarity.
 - **Leverage Built-in Higher-Order Functions**:
     - Kotlin's standard library provides functions like `filter` and `map` that often eliminate the need for manual iteration and local returns.
+
+---
 
 ### Conclusion
 Understanding returns and local returns in Kotlin is crucial for writing clear, efficient, and readable code. These concepts give you precise control over function execution and allow you to create more expressive code.
