@@ -20,7 +20,7 @@
   * [Anonymous Classes](anonymous-classes.md)
 * **Introduction to Functional Programming**
   * [Functional Programming (Introduction)](fp_introduction.md)
-  * [Anonymous Functions](start.md)
+  * [Anonymous Functions](anonymous_functions.md)
   * [Lambda Functions](start.md)
   * [Infix Functions](start.md)
 * **Continuing Functional Programming**
