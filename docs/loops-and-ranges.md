@@ -78,11 +78,11 @@ do {
 
 ### Why do we need Loops and Ranges?
 Loops and ranges transform how we handle repetitive tasks in programming:
-- **Code Efficiency**  
+- **Code efficiency**  
     - Instead of writing identical instructions repeatedly, loops let you express repetition in a single concise block, reducing both code length and potential for errors.
-- **Data Processing**  
+- **Data processing**  
     - Whether you're working with user input, database records, or API responses, loops provide a clean way to process collections of any size without manual repetition.
-- **Adaptable Logic**  
+- **Adaptable logic**  
     - Loops dynamically respond to changing conditions, perfect for scenarios like user input validation, data searching, or processing until a specific state is reached.
 - **Maintainability**  
     - By condensing repetitive logic into structured patterns, your code becomes more readable and easier to update. When requirements change, you only need to modify one block instead of multiple duplicate sections.
@@ -91,7 +91,7 @@ Loops and ranges transform how we handle repetitive tasks in programming:
 
 ### Practical examples
 
-#### 1. Inclusive Range
+#### 1. Inclusive range
 
 Now let's look at our first example - using an inclusive range in Kotlin with the double-dot operator. First, let's add a simple inventory to your main function, so we have something to work with:
 
@@ -122,7 +122,7 @@ println()
 
 When we run this code, we'll see stock levels printed from 1 all the way through 10, because the double-dot creates an inclusive range. This is particularly useful when you need the complete set of values with no exclusions.
 
-#### 2. Exclusive Range Using `until`
+#### 2. Exclusive range using `until`
 
 Next, let's explore exclusive ranges using the `until` keyword. This is helpful when we need to stop before reaching the final value.
 
@@ -162,7 +162,7 @@ println()
 
 Running this shows only stock levels 1, 6, 11, and 16. This approach is efficient when checking items at regular intervals.
 
-#### 4. Descending Range
+#### 4. Descending range
 
 What if we need to count backwards? Kotlin's `downTo` operator handles descending sequences beautifully.
 
@@ -182,7 +182,7 @@ println()
 
 This outputs stock levels in reverse order, which is useful for countdown scenarios or when processing items from end to beginning.
 
-#### 5. Descending Range with Step
+#### 5. Descending range with step
 
 We can combine concepts by creating a descending range with a specific step size.
 
@@ -202,7 +202,7 @@ println()
 
 This outputs just 20, 15, 10, and 5 - perfect when you need to decrease values by specific increments.
 
-#### 6. Loop Over Collections
+#### 6. Loop Over collections
 
 Now let's see how to iterate through a collection, like our store inventory.
 
@@ -222,7 +222,7 @@ println()
 
 This gives us a clean way to access each key-value pair in our collection.
 
-#### 7. Loop Over Collections Using `forEach`
+#### 7. Loop over collections using `forEach`
 
 Kotlin offers a more functional approach with the `forEach` method for collections.
 
@@ -242,7 +242,7 @@ println()
 
 This concise syntax automatically deconstructs the map entries, making our code even cleaner.
 
-#### 8. Loop Over Array with Indices
+#### 8. Loop over array with indices
 
 Sometimes we need both the position and value during iteration. Let's see how to access indices while looping.
 
@@ -268,7 +268,7 @@ println()
 
 This approach is valuable when the position matters, like when tracking the order of items in a display.
 
-#### 9. Using `withIndex` to get Index and Value
+#### 9. Using `withIndex` to get index and value
 
 Kotlin offers an even more elegant solution with the `withIndex` function.
 
@@ -286,7 +286,7 @@ inventory.keys.withIndex().forEach { (index, item) ->
 println()
 ```
 
-#### 10. Using `repeat` to Repeat Actions
+#### 10. Using `repeat` to repeat actions
 
 When we need to perform an action a specific number of times, the `repeat` function is perfect.
 
@@ -306,7 +306,7 @@ println()
 
 This is ideal for simple counting scenarios without needing to define a variable or range.
 
-#### 11. While Loop
+#### 11. `while` loop
 
 The `while` loop is fundamental when we need to continue until a condition changes.
 
@@ -333,7 +333,7 @@ println()
 
 While loops are perfect when the number of iterations isn't known in advance.
 
-#### 12. Do-While Loop
+#### 12. `do-while` loop
 
 A variation on the while loop is the do-while, which guarantees at least one execution.
 
@@ -365,7 +365,7 @@ println()
 
 This ensures the loop runs at least once, which is perfect for situations like user input validation.
 
-#### 13. Continue in Loops
+#### 13. `continue` in loops
 
 Sometimes we need to skip certain iterations without exiting the loop entirely.
 
@@ -393,7 +393,7 @@ println()
 
 The `continue` keyword is perfect for selectively processing elements in a sequence.
 
-#### 14. Nested Loops
+#### 14. Nested loops
 
 For more complex data structures like grids, we use nested loops – loops inside other loops.
 
@@ -415,7 +415,7 @@ println()
 
 This creates a grid-like output, processing every combination of the two values.
 
-#### 15. Breaking Out of Loops
+#### 15. Breaking out of loops
 
 There are times when we need to exit a loop early based on a condition.
 
@@ -439,7 +439,7 @@ println()
 
 The `break` keyword immediately exits the loop, which is useful for early termination when a condition is met.
 
-#### 16. Breaking out of Loops using custom Labels
+#### 16. Breaking out of loops using custom labels
 
 With nested loops, breaking from the inner loop only takes us to the outer loop. Labels let us break out completely.
 
@@ -473,7 +473,7 @@ println()
 
 Using labelled breaks gives us fine-grained control over complex nested loop structures.
 
-#### 17. Range with Characters
+#### 17. Range with characters
 
 Kotlin ranges aren't limited to numbers - they work with characters too.
 
@@ -496,7 +496,7 @@ This is useful for alphabetical processing, like working with grades or generati
 ---
 
 ### Best Practices and Pitfalls
-- **Use Ranges for clear iteration**
+- **Use ranges for clear iteration**
     - Ranges provide both efficiency and readability when working with sequences, especially when boundaries are known in advance.
 - **Choose `forEach` for collections**
     - When processing collections, `forEach` offers a more expressive alternative to traditional `for` loops, resulting in cleaner code.

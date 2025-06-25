@@ -38,24 +38,24 @@ val carBrand: String = "Maybach"
 **Name**: A variable must have a name, which is used to refer to the stored value. Variable names should be descriptive and follow certain naming conventions (e.g., camelCase, where the first word starts with a lowercase letter, and each subsequent word starts with an uppercase letter.).
 
 **Type**: Kotlin is a statically-typed language, meaning each variable must be declared with a data type.
-- **Primitive Types:** Int, Double, Boolean, Char
-- **Reference Types:** String, Arrays, Collections (like List, Set, Map)
-- **Custom Types:** Classes and objects you define
+- **Primitive types:** Int, Double, Boolean, Char
+- **Reference types:** String, Arrays, Collections (like List, Set, Map)
+- **Custom types:** Classes and objects you define
 
 **Value**: A variable stores a value that can be retrieved and modified (if it's mutable). The value must be compatible with the variable’s data type.
 
 ---
 
 ### Why do we need variables?
-- **Data Storage**:
+- **Data storage**:
     - Variables are essential for storing data that a program can use later. They allow you to save information such as numbers, text, and other data types that your program can manipulate or reference as needed. Without variables, you'd have to re-enter data every time it's needed, making programs inefficient and cumbersome.
 - **Reusability**:
     - Variables enable you to reuse data throughout your program without having to hard-code values multiple times. This not only makes your code more concise but also reduces the risk of errors. If a value needs to change, you can simply update the variable, and the change will reflect wherever the variable is used.
 - **Flexibility**:
     - By using variables, your programs can handle dynamic data that changes over time. For instance, user input, results from calculations, or data retrieved from external sources can be stored in variables, allowing your program to adapt to different situations and inputs.
-- **Readability and Maintenance**:
+- **Readability and maintenance**:
     - Variables make your code more readable by providing meaningful names to data values. This helps others (and your future self) understand what the data represents and how it’s being used. Well-named variables can significantly enhance the clarity and maintainability of your code.
-- **Memory Management**:
+- **Memory management**:
     - Variables also play a crucial role in managing memory within your program. They allow your program to allocate space in memory for data that can be accessed and manipulated efficiently. Without variables, managing memory manually would be much more complex and error-prone.
 
 ---
@@ -108,9 +108,9 @@ And I'll print the updated value to show the change:
 println("Updated car model: $carModel")
 ```
 
-**Key Insight**: Always use `val` unless you specifically need to change a variable's value later. This prevents accidental changes and makes your code more predictable.
+**Key insight**: Always use `val` unless you specifically need to change a variable's value later. This prevents accidental changes and makes your code more predictable.
 
-#### 2. Type Inference
+#### 2. Type inference
 
 **Concept**: Kotlin can automatically determine variable types from their assigned values.
 
@@ -146,7 +146,7 @@ Let me add a commented line showing what would happen if we tried to assign a di
 
 **Key Insight**: Type inference makes your code cleaner and more readable, but remember that Kotlin is still strongly typed - once a type is inferred, it's fixed.
 
-#### 3. Integer Types
+#### 3. Integer types
 
 **Concept**: Kotlin provides several integer types with different memory sizes for different needs (Byte, Short, Int, Long).
 
@@ -182,7 +182,7 @@ println("Max speed: $maxSpeed, Mileage: $mileage, Production year: $productionYe
 
 **Key Insight**: Most of the time you'll just use `Int`, but knowing the other types helps when you need to optimize memory or handle very large numbers.
 
-#### 4. Floating-Point Types
+#### 4. Floating-point types
 
 **Concept**: For decimal numbers, Kotlin offers two types with different precision levels (Float, Double).
 
@@ -206,7 +206,7 @@ println("Battery capacity: $batteryCapacity kWh, Price: $$price")
 
 **Key Insight**: Use `Double` for most decimal calculations. Only use `Float` when you need to conserve memory and don't need high precision.
 
-#### 5. Hexadecimal and Binary Literals
+#### 5. Hexadecimal and Binary literals
 
 **Concept**: Kotlin allows writing numbers in different formats beyond decimal (Hexadecimal, Binary).
 
@@ -230,7 +230,7 @@ println("Hex color code: $hexColorCode, Binary flag: $binaryFlag")
 
 **Key Insight**: While they're displayed as decimal in output, these formats make your intentions clearer in code, especially for bit operations or colour values.
 
-#### 6. Using Number Superclass
+#### 6. Using Number superclass
 
 **Concept**: All numeric types in Kotlin inherit from a common `Number` superclass, providing flexibility when working with different number types.
 
@@ -241,7 +241,7 @@ println("Number: $anotherNumber")
 
 While this flexibility is convenient, remember that you'll still need explicit conversions when performing operations between different number types. The `Number` superclass gives you type flexibility without losing Kotlin's type safety.
 
-#### 7. Number Conversions
+#### 7. Number conversions
 
 **Concept**: Kotlin requires explicit conversion between number types.
 
@@ -265,7 +265,7 @@ println("Price as Int: $priceInt, Mileage as Double: $mileageDouble")
 
 **Key Insight**: Explicit conversions prevent unexpected behavior but require you to be intentional about type changes.
 
-#### 8. Using Underscores in Numbers
+#### 8. Using underscores in numbers
 
 **Concept**: Kotlin allows underscores in numeric literals for better readability.
 
@@ -283,7 +283,7 @@ println("One million: $oneMillion")
 
 **Key Insight**: The underscores are ignored by the compiler - they're purely for human readability.
 
-#### 9. Basic Arithmetic Operations
+#### 9. Basic arithmetic operations
 
 **Concept**: Kotlin supports all standard arithmetic operations with familiar syntax.
 
@@ -325,7 +325,7 @@ println("Modulo: ${5 % 2}") // Remainder: 1
 
 **Key Insight**: With integer division, be aware that you'll lose the decimal portion. If you need a decimal result, make sure at least one operand is a decimal type.
 
-#### 10. Compound Assignment Operators
+#### 10. Compound assignment operators
 
 **Concept**: Kotlin provides shorthand operators that combine arithmetic with assignment.
 
@@ -373,7 +373,7 @@ println("After %= 7: $totalDistance km")
 
 **Key Insight**: These compound operators make your code more concise and often more readable when performing operations on the same variable.
 
-#### 11. Increment and Decrement Operators
+#### 11. Increment and decrement operators
 
 **Concept**: The `++` and `--` operators provide shortcuts for adding or subtracting 1.
 
@@ -405,7 +405,7 @@ println("Value after post-decrement: $totalDistance")
 
 **Key Insight**: The difference between prefix and postfix is subtle but important, especially in expressions or when the value is used multiple times.
 
-#### 12. Bitwise Operations
+#### 12. Bitwise operations
 
 **Concept**: Kotlin provides operators for manipulating individual bits within numbers.
 
@@ -448,7 +448,7 @@ println("Shift right: ${binary1 shr 1}")    // 0110 (6 in decimal)
 
 **Key Insight**: Bitwise operations are powerful for low-level programming, working with flags, or optimizing certain algorithms.
 
-#### 13. High-Precision Numbers
+#### 13. High-precision numbers
 
 **Concept**: For financial calculations or very large numbers, Kotlin offers specialized types.
 
@@ -476,7 +476,7 @@ println("BigInteger addition: ${totalCarsProducedBigInteger + anotherBigInteger}
 
 **Key Insight**: Always use `BigDecimal` for financial calculations to avoid the inherent rounding errors in floating-point arithmetic.
 
-#### 14. Booleans and Logical Operations
+#### 14. Booleans and logical operations
 **Concept**: Boolean variables store `true/false` values and can be combined with logical operators.
 
 Let's create some boolean values for our car properties:
@@ -529,7 +529,7 @@ println("Speed check (speed > 100): $speedCheck")
 
 **Key Insight**: Boolean expressions are the foundation of conditional logic and flow control in your programs.
 
-#### 15. Characters and Strings
+#### 15. Characters and strings
 
 **Concept**: Kotlin provides distinct types for single characters and sequences of characters.
 
@@ -577,7 +577,7 @@ println("Original price: $$price, after $discount% discount: $${"%.2f".format(fi
 
 **Key Insight**: Strings in Kotlin are immutable - when you modify a string, you're actually creating a new string object.
 
-#### 16. Escape Sequences
+#### 16. Escape sequences
 
 **Concept**: In Kotlin, **escape sequences** allow us to insert special characters inside strings, such as quotation marks, new lines, tabs, and backslashes. This is useful when you need to format text correctly or include special symbols.
 

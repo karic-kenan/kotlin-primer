@@ -27,7 +27,7 @@ This concept has been around since the early days of object-oriented programming
 
 ### Inheritance syntax
 
-- **Base Class:** This is your parent class that shares its functionality. In our upcoming zoo example, this might be the `Animal` class.
+- **Base class:** This is your parent class that shares its functionality. In our upcoming zoo example, this might be the `Animal` class.
 ```kotlin
 open class BaseClass(val property1: Type, val property2: Type) {
     // method that can be overridden in derived class
@@ -41,7 +41,7 @@ open class BaseClass(val property1: Type, val property2: Type) {
     }
 }
 ```
-- **Derived Class:** This is the child class that inherits and extends functionality. Think of our `Lion` or `Elephant` classes.
+- **Derived class:** This is the child class that inherits and extends functionality. Think of our `Lion` or `Elephant` classes.
 ```kotlin
 class DerivedClass(property1: Type, property2: Type, val additionalProperty: Type): BaseClass(property1, property2) {
     // overriding a method from a base class
@@ -78,7 +78,7 @@ Inheritance solves several important problems in programming:
 
 ### Practical examples
 
-#### 1: Understanding the Base Class (`Animal`)
+#### 1: Understanding the base class (`Animal`)
 
 Let's start by creating our base class that will serve as the foundation for all animals in our zoo system.
 
@@ -149,7 +149,7 @@ Finally, let's add a method for making the animal sleep. This behavior is common
 }
 ```
 
-#### 2: Creating a Derived Class (`Lion`)
+#### 2: Creating a derived class (`Lion`)
 
 Now let's create our first derived class, Lion, which inherits from Animal.
 
@@ -204,7 +204,7 @@ Finally, I'll add a method that's specific to lions and not found in the Animal 
 }
 ```
 
-#### 3: Creating Another Derived Class (`Elephant`)
+#### 3: Creating another derived class (`Elephant`)
 
 Let's create another derived class, Elephant, which also inherits from Animal.
 
@@ -259,7 +259,7 @@ And add an elephant-specific method that's not in the base class.
 }
 ```
 
-#### 4: Creating the Zookeeper Class (`Zookeeper`)
+#### 4: Creating the zookeeper class (`Zookeeper`)
 
 Now let's create a Zookeeper class that will manage our animals.
 
@@ -334,7 +334,7 @@ Then call each animal's describe method - again, polymorphism allows the right v
 }
 ```
 
-#### 5: Demonstrating Everything in the Main Function
+#### 5: Demonstrating everything in the `main` function
 
 Let's put everything together in a main function to see how it works.
 

@@ -27,7 +27,7 @@ Annotations originated in Java, introduced with Java 5 to provide metadata that 
 
 ### Anotation syntax
 
-#### 1. Defining a Custom Annotation (`annotation class AnnotationName`)
+#### 1. Defining a custom annotation (`annotation class AnnotationName`)
 
 Creating an annotation starts with the `annotation class` keywords followed by the name you choose:
 
@@ -37,7 +37,7 @@ annotation class JsonSerializable
 
 With this declaration, we've created a simple marker annotation that doesn't contain any data but can be used to mark classes for special processing.
 
-#### 2. Adding Parameters to Annotations
+#### 2. Adding parameters to annotations
 
 Annotations can have parameters that provide additional information:
 
@@ -47,7 +47,7 @@ annotation class JsonField(val name: String)
 
 Parameters in annotation classes work similarly to constructor parameters, allowing you to pass values when applying the annotation.
 
-#### 3. Meta-Annotations for Configuration
+#### 3. Meta-Annotations for configuration
 
 Annotations themselves can be annotated to configure their behavior:
 
@@ -60,7 +60,7 @@ annotation class JsonSerializable
 
 These meta-annotations specify where the annotation can be used (`@Target`), how long it should be retained (`@Retention`), and whether it should appear in documentation (`@MustBeDocumented`).
 
-#### 4. Applying Annotations (`@AnnotationName`)
+#### 4. Applying annotations (`@AnnotationName`)
 
 To apply an annotation, use the `@` symbol followed by the annotation name before the element you're annotating:
 
@@ -76,7 +76,7 @@ For annotations with parameters, pass the values in parentheses:
 val username: String
 ```
 
-#### 5. Built-in Annotations
+#### 5. Built-in annotations
 
 Kotlin provides many built-in annotations for common tasks:
 
@@ -116,7 +116,7 @@ Annotations solve several important problems in programming:
 
 Let's build a practical example of using annotations for JSON serialization.
 
-#### 1. Defining Custom Annotations
+#### 1. Defining custom annotations
 
 I'll start by defining three custom annotations that we'll use for our JSON serialization system. This annotation will only be applied to classes, so I'll use the `@Target` meta-annotation to specify that.
 
@@ -166,7 +166,7 @@ Finally, I'll create an annotation to mark fields as required.
 annotation class Required
 ```
 
-#### 2. Defining a Data Class and Annotating Fields
+#### 2. Defining a data class and annotating fields
 
 Now let's create a data class and apply our annotations to it.
 
@@ -206,7 +206,7 @@ For the address, I'll map it to 'user_address' and mark it as required.
 )
 ```
 
-#### 3. Validating Fields Marked with `@Required`
+#### 3. Validating fields marked with `@Required`
 
 Now I'll create a function to validate that all fields marked as required have values.
 
@@ -266,7 +266,7 @@ After checking all fields, if no exceptions were thrown, the object is valid.
 }
 ```
 
-#### 4. Processing Annotations for JSON Serialization
+#### 4. Processing annotations for JSON serialization
 
 Now I'll create a function that uses our annotations to convert an object to JSON, with an option to skip null values.
 
@@ -356,7 +356,7 @@ Finally, I'll convert the map to a properly formatted JSON string and return it.
 This approach makes the function more flexible, as it can either include or exclude null values based on the caller's needs. The map-based implementation also makes it easier to format the final JSON string using Kotlin's powerful collection operations.
 
 
-#### 5. Testing the Code in `main()`
+#### 5. Main function: putting it all together
 
 Let's put everything together in a main function to see how it works.
 

@@ -62,15 +62,15 @@ someHigherOrderFunction {
 
 ### Why Do We Need Returns and Local returns?
 Returns and local returns serve several critical purposes in Kotlin:
-- **Result Delivery**:
+- **Result delivery**:
     - They allow functions to compute and return values to be used elsewhere.
-- **Control Flow Management**:
+- **Control flow management**:
     - Returns let you exit functions early based on specific conditions, avoiding unnecessary computations.
-- **Code Clarity**:
+- **Code clarity**:
     - Effective use of returns makes your code more straightforward and easier to understand.
-- **Precise Execution Control**:
+- **Precise execution control**:
     - Local returns provide fine-grained control when working with higher-order functions like `forEach`, `map`, or `filter`.
-- **Prevention of Unintended Exits**:
+- **Prevention of unintended exits**:
     - Local returns ensure that only the lambda or anonymous function is exited, not the entire enclosing function.
 
 Without local returns, using a regular `return` inside a lambda would exit the entire enclosing function - potentially disrupting your program's flow in unexpected ways.
@@ -250,17 +250,17 @@ Remember that the goal is to write clear, maintainable code. Choose the approach
 
 When working with returns and local returns in Kotlin, keep these best practices in mind:
 
-- **Use Local Returns for Clarity**:
+- **Use local returns for clarity**:
     - They clearly indicate when a specific condition should stop processing the current iteration without affecting the outer function.
-- **Create Meaningful Label Names**:
+- **Create meaningful label names**:
     - When using custom labels with local returns, choose descriptive names that make your code more readable.
-- **Minimize Nested Lambdas**:
+- **Minimize nested lambdas**:
     - Deeply nested lambdas can become hard to read and maintain. Consider refactoring or using named functions.
-- **Consider Anonymous Functions for Clearer Control Flow**:
+- **Consider anonymous functions for clearer control flow**:
     - They allow for direct use of `return`, making the control flow more explicit.
-- **Don't Overuse Local Returns**:
+- **Don't overuse local returns**:
     - Too many local returns can make code harder to follow. Use them only when they add clarity.
-- **Leverage Built-in Higher-Order Functions**:
+- **Leverage built-in higher-order functions**:
     - Kotlin's standard library provides functions like `filter` and `map` that often eliminate the need for manual iteration and local returns.
 
 ---

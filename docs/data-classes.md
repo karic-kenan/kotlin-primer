@@ -74,15 +74,15 @@ data class Movie(
 
 Data classes solve several important problems in programming:
 
-- **Reduced Boilerplate Code:**
+- **Reduced boilerplate code:**
     - Data classes automatically generate utility methods like `equals()`, `hashCode()`, `toString()`, and `copy()`, which reduces the amount of repetitive code. In traditional classes, you would need to manually implement these methods, but data classes handle this for you.
-- **Equality and Hashing:**
+- **Equality and hashing:**
     - Data classes provide meaningful equality checks by comparing the content (or state) of objects rather than their references. This makes it easier to compare objects that represent the same data, such as records or entities.
-- **Immutable Copies:**
+- **Immutable copies:**
     - The `copy()` method in data classes allows you to create a new instance with some modified properties while keeping the original object unchanged. This encourages immutability, which is important for thread-safe programming and reduces unintended side effects.
-- **Readability and Maintainability:**
+- **Readability and maintainability:**
     - The generated `toString()` method provides a readable representation of the data class, making it easier to debug and log. This leads to cleaner and more maintainable code.
-- **Simplified Use Cases:**
+- **Simplified use cases:**
     - Data classes are ideal for use cases like modeling entities, storing records, or working with data transfer objects (DTOs), where the main focus is on holding data rather than complex behavior.
 
 ---
@@ -91,7 +91,7 @@ Data classes solve several important problems in programming:
 
 Let's build a small movie database management system using data classes to demonstrate their power and flexibility.
 
-#### 1. Defining the Data Class
+#### 1. Defining the data class
 
 First, let's define our data class that will represent a movie in our database. We'll start with the data class keyword:
 
@@ -123,7 +123,7 @@ Even though data classes are mainly for holding data, we can still add custom me
 
 Notice that all the properties are defined in the primary constructor. This is important because only the properties in the primary constructor will be used by the automatically generated methods like `equals()`, `hashCode()`, and `toString()`.
 
-#### 2. Creating Instances of the Data Class
+#### 2. Creating instances of the data class
 
 Now let's create some instances of our Movie data class in the main function:
 
@@ -140,7 +140,7 @@ I'll create three movie instances. Notice that movie1 and movie3 will have the s
     val movie3 = Movie("Inception", "Christopher Nolan", 2010, "Science Fiction", 8.8)
 ```
 
-#### 3. Demonstrating the `toString()` Method
+#### 3. Demonstrating the `toString()` method
 
 Let's see the automatically generated `toString()` method in action. This method provides a string representation of our data class instances:
 
@@ -152,7 +152,7 @@ Let's see the automatically generated `toString()` method in action. This method
 
 When we print the movie instances, Kotlin automatically calls the `toString()` method, which is generated for us because we're using a data class. This saves us from having to write our own implementation.
 
-#### 4. Demonstrating the `equals()` and `hashCode()` Methods
+#### 4. Demonstrating the `equals()` and `hashCode()` methods
 
 Now I'll demonstrate how the automatically generated `equals()` and `hashCode()` methods work. These methods allow us to compare data class instances based on their content rather than their references:
 
@@ -170,7 +170,7 @@ Here I'm checking if movie1 and movie3 are equal using the == operator. Since th
 
 I'm also printing the hash codes of movie1 and movie3. Since they're considered equal, they'll have the same hash code. This is important when using data classes in hash-based collections like HashSet or HashMap.
 
-#### 5. Using the `copy()` Method
+#### 5. Using the `copy()` method
 
 Another powerful feature of data classes is the `copy()` method, which allows us to create a new instance with some properties modified:
 
@@ -182,7 +182,7 @@ Another powerful feature of data classes is the `copy()` method, which allows us
 
 Here I'm creating a new instance based on movie1, but with a different rating. The `copy()` method allows us to change specific properties while keeping the rest the same. This is useful for maintaining immutability while still being able to update data.
 
-#### 6: Using Destructuring Declarations
+#### 6: Using destructuring declarations
 
 Data classes also provide component functions that enable destructuring declarations. This means we can easily extract properties into separate variables:
 
@@ -194,7 +194,7 @@ Data classes also provide component functions that enable destructuring declarat
 
 In this code, I'm extracting all properties of movie2 into separate variables in a single line. This is possible because data classes automatically generate componentN() functions for each property.
 
-#### 7. Using Data Classes in Collections
+#### 7. Using data classes in collections
 
 Data classes work seamlessly with collections. Let's create a movie database using a mutable list:
 
@@ -209,7 +209,7 @@ Data classes work seamlessly with collections. Let's create a movie database usi
 
 Here I'm creating a mutable list containing our movie instances. This represents our movie database. I'm then iterating through the list and printing each movie.
 
-#### 8. Finding a Movie in the Database
+#### 8. Finding a Movie in the database
 
 Now let's search for a movie in our database based on its title:
 
@@ -222,7 +222,7 @@ Now let's search for a movie in our database based on its title:
 
 I'm using the `find()` function to search for a movie with the title 'Inception'. The function returns the first element that matches the predicate, or null if no element is found.
 
-#### 9. Updating a Movie in the Database
+#### 9. Updating a Movie in the database
 
 Let's update the rating of a movie in our database. Since we're working with immutable data classes, we'll create a new instance with the updated rating and replace the old one:
 
@@ -251,7 +251,7 @@ If the movie is found, I'm creating a new instance with the updated rating using
 
 Finally, I'm printing the updated database to verify that the rating was updated correctly.
 
-#### 10. Sorting Movies by Rating
+#### 10. Sorting Movies by rating
 
 Data classes work well with Kotlin's collection functions. Let's sort our movies by rating in descending order:
 
@@ -264,7 +264,7 @@ Data classes work well with Kotlin's collection functions. Let's sort our movies
 
 Here I'm using the `sortedByDescending()` function to sort the movies based on their rating. Notice how the lambda expression uses the data class property directly.
 
-#### 11. Grouping Movies by Genre
+#### 11. Grouping Movies by genre
 
 Finally, let's group our movies by genre to demonstrate another common operation with collections of data classes:
 

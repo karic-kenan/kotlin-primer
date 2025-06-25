@@ -425,7 +425,7 @@ And the setter will split the provided name into first and last name components:
         }
 ```
 
-#### 7. Lateinit Property: `address`
+#### 7. Lateinit property: `address`
 
 Next, I'll add a `lateinit` property for the member's address:
 
@@ -441,7 +441,7 @@ Using `lateinit` is useful when:
 - The property is guaranteed to be initialized before its first use.
 - **`lateinit var address`**: Declares a mutable property that will be initialized later, after the object is created.
 
-#### 8. Secondary Constructor
+#### 8. Secondary constructor
 
 Let's add a secondary constructor that allows setting the address during member creation:
 
@@ -461,7 +461,7 @@ After the primary constructor is called, we set the address property:
     }
 ```
 
-#### 9. Init Block
+#### 9. Init block
 
 Now I'll add an initialization block that runs when a new Member is created:
 
@@ -584,7 +584,7 @@ We'll check if the address is initialized and format it accordingly:
 This method gives us a complete overview of the member, handling the case where the address might not be set yet.
 
 ---
-#### 14. Class Definition: `Library`
+#### 14. Class definition: `Library`
 
 Now let's create our Library class to tie everything together.
 
@@ -643,7 +643,7 @@ Then iterate through each book and print its details:
 
 With this method, we can see all the books in our library at any time.
 
-#### 17. Main Function: Putting It All Together
+#### 17. Main function: putting it all together
 
 Now let's write a main function to demonstrate how these classes work together.
 

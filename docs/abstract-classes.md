@@ -128,7 +128,7 @@ Abstract classes solve several important problems in programming:
 
 ### Practical examples
 
-#### 1. Defining the Employee Abstract Class
+#### 1. Defining the `Employee` abstract class
 
 Let's start by creating our abstract class that will serve as a template for all employee types in our system.
 
@@ -174,7 +174,7 @@ Here's a concrete method that all employees will share. It displays the employee
 
 This concrete method can be used as-is by any subclass, or they can choose to override it if they need different behavior.
 
-#### 2. Implementing a Subclass for Manager
+#### 2. Implementing a subclass for `Manager`
 
 Now let's create our first concrete class that extends the Employee abstract class.
 
@@ -218,7 +218,7 @@ For managers, I'll add a 10% bonus to their base salary.
 
 Notice the `override` keyword which is required when implementing abstract members or overriding open members.
 
-#### 3. Implementing a Subclass for Developer
+#### 3. Implementing a subclass for `Developer`
 
 Let's create another class that extends the Employee abstract class, this time for Developers.
 
@@ -261,7 +261,7 @@ For developers, the salary calculation includes a bonus for completed projects.
 
 Here, I'm adding a $500 bonus for each completed project to the developer's base salary.
 
-#### 4. Implementing a Subclass for Intern
+#### 4. Implementing a subclass for `Intern`
 
 Let's create a third class that extends the Employee abstract class, this time for Interns.
 
@@ -304,7 +304,7 @@ For interns, the salary is based on hours worked multiplied by hourly rate.
 
 This demonstrates how different subclasses can implement the same abstract method in completely different ways based on their specific requirements.
 
-#### 5. Demonstrating Everything in the Main Function
+#### 5. Demonstrating everything in the `main` function
 
 Let's put everything together in a main function to see how it works.
 

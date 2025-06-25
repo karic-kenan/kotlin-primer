@@ -26,7 +26,7 @@ The concept of interfaces emerged as programmers sought ways to overcome the lim
 
 ### Interface syntax
 
-#### 1. Interface Definition (`interface InterfaceName`)
+#### 1. Definition (`interface InterfaceName`)
 
 Creating an interface starts with the `interface` keyword followed by the name you choose:
 
@@ -36,7 +36,7 @@ interface PaymentMethod { // Properties and methods go here }
 
 With this declaration, we've created a contract that other classes can implement. Unlike classes, interfaces cannot store state directly, making them ideal for defining behaviors.
 
-#### 2. Abstract Properties (`val`, `var`)
+#### 2. Abstract properties (`val`, `var`)
 
 Interfaces can declare properties that implementing classes must provide. These properties don't have initializers in the interface:
 
@@ -49,7 +49,7 @@ interface PaymentMethod {
 
 Properties in interfaces are abstract by default. You specify the name, type, and whether they're readable (`val`) or mutable (`var`), but not their initial values.
 
-#### 3. Abstract Methods (`fun methodName()`)
+#### 3. Abstract methods (`fun methodName()`)
 
 Interfaces can declare abstract methods that implementing classes must define:
 
@@ -65,7 +65,7 @@ interface PaymentMethod {
 
 Abstract methods in interfaces have no body - they only specify the method signature (name, parameters, return type). Any class implementing this interface must provide its own implementation of these methods.
 
-#### 4. Default Methods
+#### 4. Default methods
 
 Kotlin interfaces can provide default implementations for methods, which implementing classes can use as-is or override:
 
@@ -85,7 +85,7 @@ interface PaymentMethod {
 
 Default methods help evolve interfaces over time without breaking existing implementations. When you add a new method to an interface, you can provide a default implementation so existing classes don't need immediate updates.
 
-#### 5. Implementing an Interface (`class ClassName : InterfaceName`)
+#### 5. Implementing an interface (`class ClassName : InterfaceName`)
 
 A class implements an interface by adding a colon followed by the interface name after the class declaration:
 
@@ -103,7 +103,7 @@ class CreditCard(private val cardNumber: String) : PaymentMethod, Serializable {
 }
 ```
 
-#### 6. Overriding Interface Members
+#### 6. Overriding interface members
 
 When implementing an interface, a class must override all abstract properties and methods using the `override` keyword:
 
@@ -140,7 +140,7 @@ Interfaces solve several important problems in programming:
     - By depending on interfaces rather than concrete implementations, your code becomes more modular and easier to test. If you write a payment processor that works with the `PaymentMethod` interface, it will work with any class that implements that interface, regardless of how it's implemented.
 - **Consistent APIs:**
     - Interfaces establish a common language for different parts of your system. When multiple classes implement the same interface, they can be used interchangeably wherever that interface is expected.
-- **Polymorphism without Inheritance:**
+- **Polymorphism without inheritance:**
     - Interfaces enable polymorphism - the ability to treat objects of different types uniformly as long as they implement the same interface. This is essential for writing flexible, reusable code.
 - **Evolving systems gracefully:**
     - As your system grows, interfaces help you maintain backward compatibility while adding new functionality. Default methods in Kotlin interfaces are particularly helpful here.
@@ -149,7 +149,7 @@ Interfaces solve several important problems in programming:
 
 ### Practical examples
 
-#### 1: Defining the PaymentMethod Interface
+#### 1: Defining the `PaymentMethod` interface
 
 Let's start by creating our interface that will serve as a contract for all payment methods in our system.
 
@@ -186,7 +186,7 @@ Here's one of Kotlin's powerful features - default method implementations in int
 }
 ```
 
-#### 2: Implementing the Interface for CreditCard
+#### 2: Implementing the interface for `CreditCard`
 
 Now let's create our first class that implements the `PaymentMethod` interface.
 
@@ -249,7 +249,7 @@ If there isn't enough balance, I print an error message and return false.
 }
 ```
 
-#### 3: Implementing the Interface for PayPal
+#### 3: Implementing the interface for `PayPal`
 
 Let's create another class that implements the `PaymentMethod` interface, this time for PayPal.
 
@@ -302,7 +302,7 @@ The implementation is similar to `CreditCard`, checking if there's enough balanc
 
 Notice how both `PayPal` and `CreditCard` implement the same interface but can have different internal implementations and properties.
 
-#### 4: Creating a New Interface for Rewards
+#### 4: Creating a new interface for `Rewards`
 
 Now let's create another interface to add rewards functionality to payment methods.
 
@@ -329,7 +329,7 @@ And one method to add points to the rewards balance.
 }
 ```
 
-#### 5: Implementing Multiple Interfaces
+#### 5: Implementing multiple interfaces
 
 Now let's create a class that implements both the `PaymentMethod` interface (through `CreditCard`) and the `Rewards` interface.
 
@@ -370,7 +370,7 @@ And here's the implementation of the `addRewardPoints` method.
 
 This method adds the specified points to the current total and prints a confirmation message.
 
-#### Step 6: Demonstrating Everything in the Main Function
+#### Step 6: Demonstrating everything in the `main` function
 
 Let's put everything together in a main function to see how it works.
 
@@ -437,7 +437,7 @@ When we run this code, we'll see how interfaces allow us to treat objects of dif
 
 Let me share some tips from experience:
 
-- **Keep Interfaces focused:**
+- **Keep interfaces focused:**
     - Follow the Interface Segregation Principle (the 'I' in SOLID) - each interface should have a single purpose. It's better to have multiple small interfaces than one large one that forces classes to implement methods they don't need.
 - **Descriptive naming:**
     - Name your interfaces based on what they do, not what they are. Names like `Processable`, `Serializable`, or `Comparable` clearly communicate the behavior an interface represents.

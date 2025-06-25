@@ -48,17 +48,17 @@ Where:
 ### Why do we need Functions?
 Functions are critical for several reasons:
 
-- **Modularity and Reusability**:
+- **Modularity and reusability**:
     - Functions let us break complex problems into manageable chunks. Once written, they can be reused throughout our program or in other projects, reducing redundancy.
-- **Code Organization and Clarity**_
+- **Code organization and clarity**_
     - By grouping related logic into self-contained units, functions make our code much easier to understand, maintain, and debug.
 - **Abstraction**: 
     - Functions hide complexity behind simple interfaces. For example, our restaurant app might have a complex `calculateDiscount()` function, but other developers can use it without understanding its inner workings.
-- **Flexibility Through Parameters**:
+- **Flexibility through parameters**:
     - Functions accept parameters, allowing the same code to work with different inputs. Our `calculateBill()` function can handle different order amounts, tax rates, and discount percentages.
-- **Easier Maintenance**:
+- **Easier maintenance**:
     - When code is organized into functions, making changes or fixing bugs becomes much simpler. Instead of hunting through the entire codebase, you can update a single function.
-- **Improved Testing**:
+- **Improved testing**:
     - Functions enable modular testing, where you can verify each piece of your program works correctly in isolation.
 
 Let's explore these concepts through practical examples in our restaurant management context.
@@ -172,7 +172,7 @@ Finally, I'll add a finally block. This code will always execute, regardless of 
 
 This structured approach to error handling is crucial in production code. Notice how we catch specific exceptions before general ones - if we reversed the order, the specific catch would never be reached. The finally block is perfect for cleanup operations like closing database connections or files, as it always executes.
 
-#### 4. Accepting an Argument
+#### 4. Accepting an argument
 
 Most functions need to work with input data to be useful. Let's create a function that displays a menu item in our restaurant system.
 
@@ -203,7 +203,7 @@ displayMenuItem("Grilled Chicken Salad")
 
 This simple function accepts a string parameter and uses it to produce formatted output. When we call this function with different menu items, it will display each one accordingly. For example, calling `displayMenuItem("Grilled Chicken Salad")` will print 'Menu Item: Grilled Chicken Salad' to the console.
 
-#### 5. Accepting an Argument and Returning a Value
+#### 5. Accepting an argument and returning a value
 
 Beyond just performing actions, functions can compute and return values that we can use elsewhere in our program.
 
@@ -235,7 +235,7 @@ println(customer)
 
 This function takes a name as input, processes it by adding a prefix, and returns the formatted string. The return type is explicitly declared as String after the parameter list. When we call this function, we can capture its result in a variable, like `val customer = formatCustomerName("John Doe")`, and use that result elsewhere in our program.
 
-#### 6. Single Expression Functions
+#### 6. Single expression functions
 
 For simple functions that just compute and return a value, Kotlin offers a more concise syntax called `single-expression functions`.
 
@@ -260,7 +260,7 @@ println("Total Bill with Tax: $$totalBill")
 
 This compact syntax is equivalent to a full function with curly braces and a return statement, but it's much cleaner for simple operations. Notice we still specify the return type before the equals sign. This function calculates the total bill including tax in a single expression, making our code more readable and concise.
 
-#### 7. Function Overloading
+#### 7. Function overloading
 
 Sometimes we need similar functionality with different parameters. Function overloading allows us to use the same function name with different parameter lists.
 
@@ -291,7 +291,7 @@ println("Total for 3 items with $5 discount: $${calculateTotal(10.0, 3, 5.0)}")
 
 With these two functions defined, we can call `calculateTotal` with either two or three arguments, and Kotlin will automatically select the appropriate function. For example, `calculateTotal(10.0, 3)` calls the first function, while `calculateTotal(10.0, 3, 5.0)` calls the second one with the discount parameter. This makes our API more intuitive and flexible.
 
-#### 8. Default Arguments
+#### 8. Default arguments
 
 Default arguments allow you to specify fallback values for parameters, making function calls simpler when standard values are acceptable.
 
@@ -331,7 +331,7 @@ println(detailedInfo)
 
 With default arguments, parameters become optional in function calls. We can call `prepareOrder("Burger")` and it will use the default quantity of 1, or we can override it with `prepareOrder("Pasta", 2)`. For functions with multiple parameters where some have defaults, we can use named arguments to specify only certain parameters, like `customerDetails("Alice", phone = "123-456-7890")` where we're using the default email value.
 
-#### 9. Multi-line Functions (Performing Complex Operations)
+#### 9. Multi-line functions (performing complex operations)
 
 While simple functions can be expressed in a single line, more complex operations require multiple steps and a full function body.
 
@@ -370,7 +370,7 @@ println("Tip Amount: $$tip")
 
 This multi-line function demonstrates how to break down a calculation into steps, making the code easier to read and debug. While we could have written this as a single-expression function, the multi-line approach gives us more flexibility for adding validation, logging, or other processing steps in the future.
 
-#### 10. Inner/Local Functions
+#### 10. Inner/Local functions
 
 Kotlin allows you to define functions inside other functions. These inner or local functions are useful for breaking down complex tasks while keeping helper functions private.
 
@@ -467,6 +467,7 @@ With the `vararg` modifier, our function becomes incredibly flexible. We can cal
 
 ### Best Practices and Pitfalls
 Before we wrap up, let's talk about what makes a good function. These aren't just arbitrary rules - they're lessons learned from countless developers who've struggled with maintaining complex codebases.
+
 #### Best Practices
 - **Use descriptive names:**
     - Choose clear function names that reflect their purpose. `calculateFinalBill()` is much more informative than `calc()` or `process()`.

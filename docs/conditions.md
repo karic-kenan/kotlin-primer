@@ -51,17 +51,17 @@ when (expression) {
 ### Why do we need conditions?
 Let's talk about why conditional statements are essential in programming:
 
-- **Decision Making**:
+- **Decision making**:
     - Without conditionals, our programs would follow a single, rigid sequence of instructions. Conditions allow our code to make choices and adapt to different situations.
-- **Dynamic Behaviour**:
+- **Dynamic behaviour**:
     - Conditionals enable our programs to react to different inputs or situations at runtime. This makes our apps versatile and responsive to a wide range of scenarios.
-- **Control Flow Management**:
+- **Control flow management**:
     - Statements like `if` and `when` help manage the execution flow in a program, ensuring that only relevant code runs based on specific conditions.
-- **Error Handling and Validation**:
+- **Error handling and validation**:
     - We use conditionals to validate data and handle errors, like checking if a value is null or if a user has entered correct input.
-- **Simplifying Complex Logic**:
+- **Simplifying complex logic**:
     - The `when` statement is particularly useful for simplifying complex decision-making processes in a clean, readable format.
-- **Enhanced Readability and Maintenance**:
+- **Enhanced readability and maintenance**:
     - Well-structured conditionals clearly define decision points in your program, making your code easier to understand and maintain.
 
 ---
@@ -69,7 +69,7 @@ Let's talk about why conditional statements are essential in programming:
 ### Practical examples
 Alright, now let’s dive into some real-world examples to understand how **`if`** and **`when`** statements work in Kotlin.
 
-#### 1. Basic If-Else Structure
+#### 1. Basic `if-else` structure
 
 First, let's add couple of variables to your main function, so we have something to work with:
 
@@ -93,7 +93,7 @@ if (itemStock > 0) {
 
 In this example, we're checking if `itemStock` is greater than 0. If it is, we print that the item is available in stock. Otherwise, we let the user know it's out of stock. This is the most fundamental way of making decisions in your code, and you'll use this pattern frequently in your programming.
 
-#### 2. If as an Expression
+#### 2. `if` as an expression
 
 Now, here's something cool about Kotlin - `if` statements can be used as expressions, meaning they can return a value that we can assign to a variable.
 
@@ -111,7 +111,7 @@ println(stockStatus)
 
 Instead of just printing messages, we're using an `if` expression to determine how much stock we have. If there's more than 50 items, it sets 'High stock'. If we have between 20 and 50 items, it's 'Moderate stock'. Otherwise, it's 'Low stock'. Then we print this status. This approach makes our code more concise and readable.
 
-#### 3. Nested Conditionals
+#### 3. Nested conditionals
 
 Sometimes we need to make decisions within decisions. For this, we use nested `if` statements.
 
@@ -131,7 +131,7 @@ println(purchaseStatus)
 
 Imagine a customer wants to buy something. First, we check if they can afford even a single item. If they can't, we set the message to 'Customer cannot afford' the item. If they can afford it, we then check if they have enough money to buy 10 items. Based on that, we set the appropriate message. While powerful, be careful not to nest too deeply, as it can make your code harder to follow.
 
-#### 4. Basic When Statement
+#### 4. Basic `when` statement
 
 Now let's explore Kotlin's `when` statement, which is like a much improved version of the traditional `switch` statement you might have seen in other languages.
 
@@ -149,7 +149,7 @@ when (dayOfWeek) {
 
 Here, we're checking the day of the week and applying different promotional offers based on the result. If it's Monday, we offer a 10% discount. On Wednesday, we have a 'Buy One Get One Free' deal. On Friday, everything is 20% off. For any other day, there's no special offer. This makes it really easy to handle multiple different cases without a bunch of if-else statements.
 
-#### 5. When with Multiple Conditions per Branch
+#### 5. `when` with multiple conditions per branch
 
 One great feature of `when` is that you can group multiple values in a single branch.
 
@@ -163,7 +163,7 @@ when (dayOfWeek) {
 
 For example, here we check if it's Saturday or Sunday. If it is either of those days, the store has shorter hours. Otherwise, it's open for regular business hours. This is cleaner and more readable than writing multiple `if` conditions separately.
 
-#### 6. When Returning a Value
+#### 6. `when` returning a value
 
 Just like `if`, the `when` statement can also return a value.
 
@@ -181,7 +181,7 @@ println(orderStatus)
 
 Here, we're checking the size of an order. Based on the `orderQuantity`, we classify it as a 'Small order' if it's between 1-10 items, 'Medium order' if it's between 11-50 items, or 'Large order' if it's more than that. Since `when` returns a value, we can directly assign it to a variable - clean and efficient!
 
-#### 7. When Without an Argument
+#### 7. `when` without an argument
 
 Now, let's look at another way to use `when` - without an argument!
 
@@ -200,7 +200,7 @@ println(ageGroup)
 
 Instead of checking a single variable, we can write conditions directly inside each branch, similar to `if-else` chains. Here, we check the customer's age and categorize them as 'Minor' if they're under 18, 'Adult' if they're between 18 and 64, or 'Senior' if they're 65 or older. This is a very flexible way to handle multiple conditions without explicitly comparing a single variable.
 
-#### 8. When with Expressions in Branches
+#### 8. `when` with expressions in branches
 
 Here's something interesting: `when` can evaluate expressions inside its branches.
 
@@ -215,7 +215,7 @@ println(discountEligibility)
 
 In this case, we check if the customer's age is 16 + 9 (which is 25). If it matches, they get an 'Eligible for adult discount' message. Otherwise, they don't get any special discount. This shows how you can use math expressions inside a `when` statement just like you would in `if`.
 
-#### 9. Type Checking with When
+#### 9. Type checking with `when`
 
 Now, let's talk about something really powerful - type checking using `when`.
 
