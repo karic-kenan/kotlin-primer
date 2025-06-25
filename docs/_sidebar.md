@@ -14,7 +14,7 @@
   * [Classes (Introduction)](classes-introduction.md)
   * [Inheritance](inheritance.md)
   * [Interfaces](interfaces.md)
-  * [Abstract Classes](start.md)
+  * [Abstract Classes](abstract-classes.md)
   * [Data Classes](start.md)
   * [Annotations](start.md)
   * [Anonymous Classes](start.md)
