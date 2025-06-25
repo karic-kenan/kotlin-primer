@@ -22,7 +22,7 @@
   * [Functional Programming (Introduction)](fp_introduction.md)
   * [Anonymous Functions](anonymous_functions.md)
   * [Lambda Functions](lambda_functions.md)
-  * [Infix Functions](start.md)
+  * [Infix Functions](infix_functions.md)
 * **Continuing Functional Programming**
   * [Operator Overloading](start.md)
   * [Tail Recursion](start.md)
