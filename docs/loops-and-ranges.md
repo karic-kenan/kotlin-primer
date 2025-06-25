@@ -495,7 +495,7 @@ This is useful for alphabetical processing, like working with grades or generati
 
 ---
 
-### Best Practices and Pitfalls
+### Best practices and pitfalls
 - **Use ranges for clear iteration**
     - Ranges provide both efficiency and readability when working with sequences, especially when boundaries are known in advance.
 - **Choose `forEach` for collections**

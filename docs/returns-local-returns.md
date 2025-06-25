@@ -246,7 +246,7 @@ Remember that the goal is to write clear, maintainable code. Choose the approach
 
 ---
 
-### Best Practices and Pitfalls
+### Best practices and pitfalls
 
 When working with returns and local returns in Kotlin, keep these best practices in mind:
 

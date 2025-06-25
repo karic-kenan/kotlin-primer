@@ -283,7 +283,7 @@ I'm using the `groupBy()` function to create a map where the keys are genres and
 
 ---
 
-### Best Practices and Pitfalls
+### Best practices and pitfalls
 
 Let me share some tips from experience:
 

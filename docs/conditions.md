@@ -235,7 +235,7 @@ Here, we have a variable called `customerFeedback`, which could be any type. If 
 
 ---
 
-### Best Practices and Pitfalls
+### Best practices and pitfalls
 To write effective conditional code in Kotlin, keep these best practices in mind:
 
 * **Keep conditions simple and readable**

@@ -348,7 +348,7 @@ Notice how each class implements the calculateSalary method differently, but we 
 
 When we run this code, we'll see how abstract classes allow us to treat objects of different subclasses uniformly when they extend the same abstract class, while still allowing each subclass to implement specific behavior. This is the power of abstraction and polymorphism in object-oriented programming.
 
-### Best Practices and Pitfalls
+### Best practices and pitfalls
 
 Let me share some tips from experience:
 

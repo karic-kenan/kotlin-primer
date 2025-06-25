@@ -399,7 +399,7 @@ When we run this code, we'll see how inheritance and polymorphism work together 
 
 ---
 
-### Best Practices and Pitfalls
+### Best practices and pitfalls
 
 Let me share some tips from experience:
 

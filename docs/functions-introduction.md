@@ -465,7 +465,7 @@ With the `vararg` modifier, our function becomes incredibly flexible. We can cal
 
 ---
 
-### Best Practices and Pitfalls
+### Best practices and pitfalls
 Before we wrap up, let's talk about what makes a good function. These aren't just arbitrary rules - they're lessons learned from countless developers who've struggled with maintaining complex codebases.
 
 #### Best Practices

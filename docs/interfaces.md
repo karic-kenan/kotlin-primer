@@ -433,7 +433,7 @@ When we run this code, we'll see how interfaces allow us to treat objects of dif
 
 ---
 
-### Best Practices and Pitfalls
+### Best practices and pitfalls
 
 Let me share some tips from experience:
 

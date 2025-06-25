@@ -725,7 +725,7 @@ This main function demonstrates the complete workflow of our library system, fro
 
 ---
 
-### Best Practices and Pitfalls
+### Best practices and pitfalls
 
 Here are some tips to make your classes more effective:
 

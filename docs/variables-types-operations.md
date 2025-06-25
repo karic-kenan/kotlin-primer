@@ -652,7 +652,7 @@ println("Manufacturer: $MANUFACTURER")
 
 ---
 
-### Best Practices and Pitfalls
+### Best practices and pitfalls
 - **Use descriptive names:**
     - Always choose meaningful and descriptive names for your variables. This makes your code more readable and maintainable. For example, instead of naming a variable `x`, name it `carModel` or `totalProduction`.
 - **Use `val` whenever possible:**

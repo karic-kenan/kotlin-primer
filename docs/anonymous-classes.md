@@ -317,7 +317,7 @@ When we run this code, we'll see how the same processPayment function can handle
 
 This demonstrates one of the key strengths of anonymous classes - they allow us to create different implementations of an interface or abstract class on the fly, without creating separate named classes for each variation.
 
-### Best Practices and Pitfalls
+### Best practices and pitfalls
 
 Let me share some tips from experience:
 

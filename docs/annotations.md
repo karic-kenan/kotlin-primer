@@ -412,7 +412,7 @@ Let's see what happens with a user that has a missing required field.
 
 When we run this code, we'll see how our annotations help us validate data and customize JSON serialization without having to write custom logic for each class. The `@JsonSerializable` annotation identifies classes that can be converted to JSON, `@JsonField` annotations map fields to custom JSON keys, and `@Required` annotations ensure that important fields have values. This demonstrates the power of annotations for providing declarative behavior in our code.
 
-### Best Practices and Pitfalls
+### Best practices and pitfalls
 
 Let me share some tips from experience:
 
