@@ -16,8 +16,8 @@
   * [Interfaces](interfaces.md)
   * [Abstract Classes](abstract-classes.md)
   * [Data Classes](data-classes.md)
-  * [Annotations](start.md)
-  * [Anonymous Classes](start.md)
+  * [Annotations](annotations.md)
+  * [Anonymous Classes](anonymous-classes.md)
 * **Introduction to Functional Programming**
   * [Functional Programming (Introduction)](start.md)
   * [Anonymous Functions](start.md)
