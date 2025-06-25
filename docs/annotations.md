@@ -420,17 +420,17 @@ Let me share some tips from experience:
     - Each annotation should have a single, clear purpose. Just like with interfaces, it's better to have multiple small, focused annotations than one large one that tries to do too much.
 - **Choose the right retention policy:**
     - Not all annotations need to be available at runtime. If an annotation is only used by the compiler or build tools, use `SOURCE` or `BINARY` retention to improve performance.
-- **Provide Clear Documentation:**
+- **Provide clear documentation:**
     - Since annotations modify behavior in ways that might not be obvious from looking at the code, always document what your custom annotations do and how they should be used.
-- **Use Built-in Annotations When Possible:**
+- **Use built-in annotations when possible:**
     - Kotlin provides many useful built-in annotations like `@Deprecated`, `@JvmStatic`, and `@Suppress`. Use these instead of creating your own when they meet your needs.
-- **Be Mindful of Performance:**
+- **Be mindful of performance:**
     - Annotations that are processed at runtime using reflection can impact performance. Use them judiciously, especially in performance-critical code.
-- **Watch Out for Annotation Overload:**
+- **Watch out for annotation overload:**
     - Too many annotations can make code harder to read rather than easier. Avoid the temptation to annotate everything just because you can.
-- **Consider Annotation Processors:**
+- **Consider annotation processors:**
     - For complex use cases, consider using compile-time annotation processors that generate code based on annotations, rather than relying on runtime reflection.
-- **Test Annotated Code Thoroughly:**
+- **Test annotated code thoroughly:**
     - Code that uses annotations, especially custom ones, can have subtle behaviors that are hard to spot during development. Make sure to test all edge cases.
 
 ### Conclusion
