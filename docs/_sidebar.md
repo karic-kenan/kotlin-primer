@@ -15,7 +15,7 @@
   * [Inheritance](inheritance.md)
   * [Interfaces](interfaces.md)
   * [Abstract Classes](abstract-classes.md)
-  * [Data Classes](start.md)
+  * [Data Classes](data-classes.md)
   * [Annotations](start.md)
   * [Anonymous Classes](start.md)
 * **Introduction to Functional Programming**
