@@ -21,7 +21,7 @@
 * **Introduction to Functional Programming**
   * [Functional Programming (Introduction)](fp_introduction.md)
   * [Anonymous Functions](anonymous_functions.md)
-  * [Lambda Functions](start.md)
+  * [Lambda Functions](lambda_functions.md)
   * [Infix Functions](start.md)
 * **Continuing Functional Programming**
   * [Operator Overloading](start.md)
