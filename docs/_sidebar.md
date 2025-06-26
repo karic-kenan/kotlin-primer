@@ -26,7 +26,7 @@
 * **Continuing Functional Programming**
   * [Operator Overloading](operator_overloading.md)
   * [Tail Recursion](tail_recursion.md)
-  * [Inline Functions](start.md)
+  * [Inline Functions](inline_functions.md)
   * [Functional Constructs](start.md)
   * [High Order Functions](start.md)
   * [Composition and Currying](start.md)
