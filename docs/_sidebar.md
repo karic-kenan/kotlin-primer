@@ -25,7 +25,7 @@
   * [Infix Functions](infix_functions.md)
 * **Continuing Functional Programming**
   * [Operator Overloading](operator_overloading.md)
-  * [Tail Recursion](start.md)
+  * [Tail Recursion](tail_recursion.md)
   * [Inline Functions](start.md)
   * [Functional Constructs](start.md)
   * [High Order Functions](start.md)
