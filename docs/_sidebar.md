@@ -27,7 +27,7 @@
   * [Operator Overloading](operator_overloading.md)
   * [Tail Recursion](tail_recursion.md)
   * [Inline Functions](inline_functions.md)
-  * [Functional Constructs](start.md)
+  * [Functional Constructs](functional_constructs.md)
   * [High Order Functions](start.md)
   * [Composition and Currying](start.md)
 * **Collections and Data Processing**
