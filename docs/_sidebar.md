@@ -24,7 +24,7 @@
   * [Lambda Functions](lambda_functions.md)
   * [Infix Functions](infix_functions.md)
 * **Continuing Functional Programming**
-  * [Operator Overloading](start.md)
+  * [Operator Overloading](operator_overloading.md)
   * [Tail Recursion](start.md)
   * [Inline Functions](start.md)
   * [Functional Constructs](start.md)
