@@ -29,7 +29,7 @@
   * [Inline Functions](inline_functions.md)
   * [Functional Constructs](functional_constructs.md)
   * [High Order Functions](high_order_functions.md)
-  * [Composition and Currying](start.md)
+  * [Composition and Currying](composition_currying.md)
 * **Collections and Data Processing**
   * [Lists](start.md)
   * [Sets](start.md)
