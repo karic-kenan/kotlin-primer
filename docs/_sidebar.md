@@ -33,7 +33,7 @@
 * **Collections and Data Processing**
   * [Lists](lists.md)
   * [Sets](sets.md)
-  * [Maps](start.md)
+  * [Maps](maps.md)
   * [Operations](start.md)
   * [Sequence operations](start.md)
   * [Null safety](start.md)
