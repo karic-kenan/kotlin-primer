@@ -31,7 +31,7 @@
   * [High Order Functions](high_order_functions.md)
   * [Composition and Currying](composition_currying.md)
 * **Collections and Data Processing**
-  * [Lists](start.md)
+  * [Lists](lists.md)
   * [Sets](start.md)
   * [Maps](start.md)
   * [Operations](start.md)
