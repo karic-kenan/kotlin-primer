@@ -32,7 +32,7 @@
   * [Composition and Currying](composition_currying.md)
 * **Collections and Data Processing**
   * [Lists](lists.md)
-  * [Sets](start.md)
+  * [Sets](sets.md)
   * [Maps](start.md)
   * [Operations](start.md)
   * [Sequence operations](start.md)
