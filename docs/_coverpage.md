@@ -1,4 +1,4 @@
-# <b>Kotlin</b> Apprentice
+# <b>Kotlin</b> Primer
 
 > Quickly and effectively learn Kotlin language to get started in all things Kotlin.
 
@@ -7,4 +7,4 @@
 - Using real world examples to break down concepts
 
 [GitHub](https://github.com/karic-kenan/kotlin-apprentice/)
-[Get Started](#kotlin-apprentice)
+[Get Started](#kotlin-primer)

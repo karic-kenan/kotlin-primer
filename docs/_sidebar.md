@@ -36,8 +36,7 @@
   * [Maps](maps.md)
   * [Operations](operations.md)
   * [Sequence operations](sequence_operations.md)
-  * [Null safety](collections_null_safety.md)
-  * [Functional Data Processing](start.md)
+  * [Null Safety](collections_null_safety.md)
 * **Advanced Object-Oriented Programming**
   * [Delegation](start.md)
   * [Enums](start.md)
