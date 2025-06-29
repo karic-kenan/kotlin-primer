@@ -35,7 +35,7 @@
   * [Sets](sets.md)
   * [Maps](maps.md)
   * [Operations](operations.md)
-  * [Sequence operations](start.md)
+  * [Sequence operations](sequence_operations.md)
   * [Null safety](start.md)
   * [Functional Data Processing](start.md)
 * **Advanced Object-Oriented Programming**
