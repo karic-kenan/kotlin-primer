@@ -34,7 +34,7 @@
   * [Lists](lists.md)
   * [Sets](sets.md)
   * [Maps](maps.md)
-  * [Operations](start.md)
+  * [Operations](operations.md)
   * [Sequence operations](start.md)
   * [Null safety](start.md)
   * [Functional Data Processing](start.md)
