@@ -39,7 +39,7 @@
   * [Null Safety](collections_null_safety.md)
 * **Intermediate OOP**
   * [Delegation](delegation.md)
-  * [Enums](start.md)
+  * [Enums](enums.md)
   * [Generics](start.md)
   * [Nested and Inner classes](start.md)
   * [Single Abstract Method Interfaces](start.md)
