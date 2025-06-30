@@ -45,8 +45,8 @@
   * [Single Abstract Method Interfaces](sam_interfaces.md)
 * **Extension Functions and Properties**
   * [Extension Functions](extension_functions.md)
-  * [Lambda Extensions](start.md)
-  * [Extension Properties](start.md)
+  * [Lambda Extensions](lambda_extensions.md)
+  * [Extension Properties](extension_properties.md)
 * **Advanced Topics and Best Practices**
   * [Null Safety](start.md)
   * [Objects and Companion Objects](start.md)
