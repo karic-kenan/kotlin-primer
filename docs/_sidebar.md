@@ -40,7 +40,7 @@
 * **Intermediate OOP**
   * [Delegation](delegation.md)
   * [Enums](enums.md)
-  * [Generics](start.md)
+  * [Generics](generics.md)
   * [Nested and Inner classes](start.md)
   * [Single Abstract Method Interfaces](start.md)
 * **Extension Functions and Properties**
