@@ -44,7 +44,7 @@
   * [Nested and Inner classes](nested_inner_classes.md)
   * [Single Abstract Method Interfaces](sam_interfaces.md)
 * **Extension Functions and Properties**
-  * [Extension Functions](start.md)
+  * [Extension Functions](extension_functions.md)
   * [Lambda Extensions](start.md)
   * [Extension Properties](start.md)
 * **Advanced Topics and Best Practices**
