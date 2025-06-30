@@ -37,8 +37,8 @@
   * [Operations](operations.md)
   * [Sequence operations](sequence_operations.md)
   * [Null Safety](collections_null_safety.md)
-* **Advanced Object-Oriented Programming**
-  * [Delegation](start.md)
+* **Intermediate OOP**
+  * [Delegation](delegation.md)
   * [Enums](start.md)
   * [Generics](start.md)
   * [Nested and Inner classes](start.md)
