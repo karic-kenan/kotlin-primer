@@ -50,7 +50,7 @@
 * **Advanced Topics and Best Practices**
   * [Null Safety](null_safety.md)
   * [Objects and Companion Objects](objects_companion.md)
-  * [Sealed classes and Interfaces](start.md)
+  * [Sealed classes and Interfaces](sealed_class_interface.md)
 * **Special Methods and Type Handling**
   * [Typealias](start.md)
   * [Value classes](start.md)
