@@ -42,7 +42,7 @@
   * [Enums](enums.md)
   * [Generics](generics.md)
   * [Nested and Inner classes](nested_inner_classes.md)
-  * [Single Abstract Method Interfaces](start.md)
+  * [Single Abstract Method Interfaces](sam_interfaces.md)
 * **Extension Functions and Properties**
   * [Extension Functions](start.md)
   * [Lambda Extensions](start.md)
