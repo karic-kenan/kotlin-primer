@@ -63,5 +63,4 @@
   * [Tuples](start.md)
   * [Scope Functions](start.md)
 * **Conclusion**
-  * [Summary](start.md)
-  * [Final Project](start.md)
+  * [Summary](conclusion.md)
