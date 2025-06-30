@@ -41,7 +41,7 @@
   * [Delegation](delegation.md)
   * [Enums](enums.md)
   * [Generics](generics.md)
-  * [Nested and Inner classes](start.md)
+  * [Nested and Inner classes](nested_inner_classes.md)
   * [Single Abstract Method Interfaces](start.md)
 * **Extension Functions and Properties**
   * [Extension Functions](start.md)

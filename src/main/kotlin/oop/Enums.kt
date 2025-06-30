@@ -4,10 +4,6 @@ import kotlin.collections.forEach
 import kotlin.collections.joinToString
 import kotlin.text.toUpperCase
 
-/**
- * 11. Enums
- */
-// Enum class for Traffic Light States
 object Enums {
 
     // Basic enum definition
