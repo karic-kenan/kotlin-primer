@@ -60,7 +60,7 @@
   * [Error Handling](error_handling.md)
   * [Kotlin Reflection](reflection.md)
 * **Kotlin Specific Features**
-  * [Tuples](start.md)
+  * [Tuples](tuples.md)
   * [Scope Functions](start.md)
 * **Conclusion**
   * [Summary](conclusion.md)
