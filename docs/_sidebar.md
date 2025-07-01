@@ -57,7 +57,7 @@
   * [Type Erasure](type_erasure.md)
   * [Casting](casting.md)
 * **Error Handling and Reflection**
-  * [Error Handling](start.md)
+  * [Error Handling](error_handling.md)
   * [Kotlin Reflection](start.md)
 * **Kotlin Specific Features**
   * [Tuples](start.md)
