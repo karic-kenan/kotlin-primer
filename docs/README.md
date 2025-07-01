@@ -37,94 +37,13 @@ Kotlin Primer is designed to get you up and running with Kotlin efficiently. Thi
    - For VS Code: Install the Kotlin extension
 
 3. **Start learning!**
-   - Visit the [📖 Interactive Documentation](https://karic-kenan.github.io/kotlin-primer/)
    - Follow the lessons in order or jump to topics of interest
    - Run the examples and experiment with the code
    - Practice with the concepts as you progress
 
 ## 📚 Course Content
 
-The complete course is available in our interactive documentation. Here's what you'll learn:
-
-### **Introduction and Setup**
-- Introduction to Kotlin
-- Setting up your development environment  
-- Writing your first Kotlin program
-- Working with Kotlin REPL
-
-### **Kotlin Fundamentals**
-- Variables, Types, and Operations
-- Conditions
-- Loops and Ranges
-
-### **Basic Functions and Control Flow**
-- Functions (Introduction)
-- Returns and Local Returns
-
-### **Object-Oriented Programming**
-- Classes (Introduction)
-- Inheritance
-- Interfaces
-- Abstract Classes
-- Data Classes
-- Annotations
-- Anonymous Classes
-
-### **Introduction to Functional Programming**
-- Functional Programming (Introduction)
-- Anonymous Functions
-- Lambda Functions
-- Infix Functions
-
-### **Continuing Functional Programming**
-- Operator Overloading
-- Tail Recursion
-- Inline Functions
-- Functional Constructs
-- High Order Functions
-- Composition and Currying
-
-### **Collections and Data Processing**
-- Lists
-- Sets
-- Maps
-- Operations
-- Sequence operations
-- Null Safety
-
-### **Intermediate OOP**
-- Delegation
-- Enums
-- Generics
-- Nested and Inner classes
-- Single Abstract Method Interfaces
-
-### **Extension Functions and Properties**
-- Extension Functions
-- Lambda Extensions
-- Extension Properties
-
-### **Advanced Topics and Best Practices**
-- Null Safety
-- Objects and Companion Objects
-- Sealed classes and Interfaces
-
-### **Special Methods and Type Handling**
-- Typealias
-- Value Classes
-- Type Erasure
-- Casting
-
-### **Error Handling and Reflection**
-- Error Handling
-- Kotlin Reflection
-
-### **Kotlin Specific Features**
-- Tuples
-- Scope Functions
-
-### **Conclusion**
-- Summary
+The complete course is available in the interactive documentation, which you can check on in the menu on the side.
 
 ## 🎯 Learning Path
 

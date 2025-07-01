@@ -44,7 +44,7 @@ Kotlin Primer is designed to get you up and running with Kotlin efficiently. Thi
 
 ## 📚 Course Content
 
-The complete course is available in our interactive documentation. Here's what you'll learn:
+The complete course is available in the interactive documentation. Here's what you'll learn:
 
 ### **Introduction and Setup**
 - Introduction to Kotlin
