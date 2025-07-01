@@ -53,7 +53,7 @@
   * [Sealed classes and Interfaces](sealed_class_interface.md)
 * **Special Methods and Type Handling**
   * [Typealias](typealias.md)
-  * [Value classes](start.md)
+  * [Value Classes](value_classes.md)
   * [Type Erasure](start.md)
   * [Casting](start.md)
 * **Error Handling and Reflection**
