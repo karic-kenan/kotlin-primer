@@ -61,6 +61,6 @@
   * [Kotlin Reflection](reflection.md)
 * **Kotlin Specific Features**
   * [Tuples](tuples.md)
-  * [Scope Functions](start.md)
+  * [Scope Functions](scope_functions.md)
 * **Conclusion**
   * [Summary](conclusion.md)
