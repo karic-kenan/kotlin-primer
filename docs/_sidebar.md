@@ -54,7 +54,7 @@
 * **Special Methods and Type Handling**
   * [Typealias](typealias.md)
   * [Value Classes](value_classes.md)
-  * [Type Erasure](start.md)
+  * [Type Erasure](type_erasure.md)
   * [Casting](start.md)
 * **Error Handling and Reflection**
   * [Error Handling](start.md)
