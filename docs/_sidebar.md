@@ -55,7 +55,7 @@
   * [Typealias](typealias.md)
   * [Value Classes](value_classes.md)
   * [Type Erasure](type_erasure.md)
-  * [Casting](start.md)
+  * [Casting](casting.md)
 * **Error Handling and Reflection**
   * [Error Handling](start.md)
   * [Kotlin Reflection](start.md)
