@@ -6,5 +6,5 @@
 - Easy to follow
 - Using real world examples to break down concepts
 
-[GitHub](https://github.com/karic-kenan/kotlin-apprentice/)
+[GitHub](https://github.com/karic-kenan/kotlin-primer)
 [Get Started](#kotlin-primer)
