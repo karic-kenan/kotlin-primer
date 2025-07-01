@@ -52,7 +52,7 @@
   * [Objects and Companion Objects](objects_companion.md)
   * [Sealed classes and Interfaces](sealed_class_interface.md)
 * **Special Methods and Type Handling**
-  * [Typealias](start.md)
+  * [Typealias](typealias.md)
   * [Value classes](start.md)
   * [Type Erasure](start.md)
   * [Casting](start.md)
